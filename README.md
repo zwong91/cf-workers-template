@@ -1,6 +1,4 @@
-OpenAI proxy on Cloudflare Worker and Vercel Edge.
-
-If you are close to Hong Kong, it's better to deploy on Vercel. Since Cloudflare will use Hong Kong which is not a supported region for OpenAI API.
+Site proxy on Cloudflare Worker and Vercel Edge.
 
 To deploy on Vercel:
 
@@ -10,6 +8,8 @@ To deploy on Vercel:
 To deploy on Cloudflare:
 
 ```
+nvm install 18
+npm install -g pnpm
 pnpm i
-pnpm run deploy
+pnpm run deploy-cf
 ```
