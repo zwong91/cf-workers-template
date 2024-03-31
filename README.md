@@ -7,9 +7,7 @@ To deploy on Vercel:
 
 To deploy on Cloudflare:
 
-```
-nvm install 18
-npm install -g pnpm
+```sh
 pnpm i
 pnpm run deploy-cf
 ```
