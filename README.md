@@ -1,4 +1,4 @@
-Site proxy on Cloudflare Worker and Vercel Edge.
+proxy on Cloudflare Worker and Vercel Edge.
 
 To deploy on Vercel:
 
